@@ -80,7 +80,7 @@ def startPingTest(cc, destination, pingType, ipv4Only, ipv6Only, resolve):
 
     
 
-#function to launch a traceroute
+#function to launch a traceroute from a country to a specific destination
 def startTracertTest(cc, destination):
     
     test_url = API_ENDPOINT + "StartTracertTest"
@@ -126,7 +126,53 @@ def startTracertTest(cc, destination):
         return res['StartTracertTestResult']['TestID']
     else:
         return "FAILED"
+
+#function to launch a traceroute from a probe to a specific destination
+def startTracertTestByProbe(probeid, destination):
     
+    test_url = API_ENDPOINT + "StartTracertTest"
+    
+    json_test = {
+      "testSettings": {
+        "BufferSize": 32,
+        "Count": 3,
+        "Fragment": 1,
+        "Ipv4only": 0,
+        "Ipv6only": 0,
+        "MaxFailedHops": 0,
+        "Resolve": 1,
+        "Sleep": 300,
+        "Ttl": 128,
+        "TtlStart": 1,
+        "Timeout": 80000,
+        "HopTimeout": 3000,
+        "TestCount": 1,
+        "Sources": [
+          {
+            "ProbeID": probeid
+          }
+        ],
+        "Destinations": [
+          destination
+        ],
+        "ProbeInfoProperties": probeInfoProperties
+      }
+    }
+    
+    
+    data = json.dumps(json_test)
+    
+    try:
+        r = requests.post(test_url, data=data, headers=HEADERS)
+    except requests.exceptions.RequestException as e:
+        return "Request FAILED"
+    
+    res = json.loads(r.text)
+                
+    if ("OK" == res['StartTracertTestResult']['Status']['StatusText']):
+        return res['StartTracertTestResult']['TestID']
+    else:
+        return "FAILED"
 
 def startDigTest(cc, domain, cache, qclass, qtype, recurse, retries, dnsresolver, tcp):
     
