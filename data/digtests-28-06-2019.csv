@@ -1,0 +1,34 @@
+ASN,ConnectionType,CountryCode,DNSResolver,IPAddress,Network,ProbeID,TestDateTime,Server,QueryTime,Status,dig_type
+29571,"Wireless80211,Tunnel",CI,74.125.47.3,160.120.130.186,Orange Cote d'Ivoire,60e149b0-7b44-4d49-a080-5f11dd8ea101,/Date(1561725729355+0000)/,8.8.8.8,4134,NoError,remote
+29571,"Wireless80211,Tunnel",CI,74.125.47.3,160.120.130.186,Orange Cote d'Ivoire,60e149b0-7b44-4d49-a080-5f11dd8ea101,/Date(1561725731782+0000)/,9.9.9.9,501,NoError,remote
+6713,Ethernet,MA,81.192.17.18,196.92.5.102,Maroc Telecom,98156c23-0e8a-49fd-8884-7951b96c3cb6,/Date(1561725735543+0000)/,1.1.1.1,38,NoError,remote
+36903,Wireless80211,MA,81.192.17.90,196.65.121.5,Maroc Telecom ADSL,1e2bd4c0-2f11-4c38-9839-ee27505cf8ba,/Date(1561725735765+0000)/,1.1.1.1,124,NoError,remote
+36903,Ethernet,MA,81.192.21.50,41.140.25.93,Maroc Telecom,2c0ee6f1-ac2b-4295-8e47-9a016898c5a7,/Date(1561725736554+0000)/,1.1.1.1,128,NoError,remote
+6713,Wireless80211,MA,81.192.21.62,105.142.159.169,Maroc Telecom 3G,05a52088-882b-4553-9568-ec2ff38ab258,/Date(1561725739082+0000)/,1.1.1.1,418,NoError,remote
+6713,Ethernet,MA,81.192.17.18,196.92.5.102,Maroc Telecom,98156c23-0e8a-49fd-8884-7951b96c3cb6,/Date(1561725736444+0000)/,8.8.8.8,35,NoError,remote
+36903,Wireless80211,MA,81.192.17.90,196.65.121.5,Maroc Telecom ADSL,1e2bd4c0-2f11-4c38-9839-ee27505cf8ba,/Date(1561725736587+0000)/,8.8.8.8,67,NoError,remote
+36903,Ethernet,MA,81.192.21.50,41.140.25.93,Maroc Telecom,2c0ee6f1-ac2b-4295-8e47-9a016898c5a7,/Date(1561725737307+0000)/,8.8.8.8,23,NoError,remote
+6713,Wireless80211,MA,81.192.21.62,105.142.159.169,Maroc Telecom 3G,05a52088-882b-4553-9568-ec2ff38ab258,/Date(1561725741208+0000)/,8.8.8.8,122,NoError,remote
+6713,Ethernet,MA,81.192.17.18,196.92.5.102,Maroc Telecom,98156c23-0e8a-49fd-8884-7951b96c3cb6,/Date(1561725737433+0000)/,9.9.9.9,66,Refused,remote
+36903,Wireless80211,MA,81.192.17.90,196.65.121.5,Maroc Telecom ADSL,1e2bd4c0-2f11-4c38-9839-ee27505cf8ba,/Date(1561725737649+0000)/,9.9.9.9,104,NoError,remote
+36903,Ethernet,MA,81.192.21.50,41.140.25.93,Maroc Telecom,2c0ee6f1-ac2b-4295-8e47-9a016898c5a7,/Date(1561725737801+0000)/,9.9.9.9,52,Refused,remote
+6713,Wireless80211,MA,81.192.21.62,105.142.159.169,Maroc Telecom 3G,05a52088-882b-4553-9568-ec2ff38ab258,/Date(1561725742667+0000)/,9.9.9.9,127,NoError,remote
+36923,Ethernet,NG,8.0.26.135,41.58.57.65,SWIFTNG,87c9d1f1-b3f3-47b9-b652-6c7a665cf6f5,/Date(1561725746906+0000)/,1.1.1.1,4066,NoError,remote
+37211,"Ethernet,Ethernet",SD,162.158.82.196,196.223.156.192,Max-net-for-internet-services,1a512351-8fbe-440f-8ea2-fcaf222c3111,/Date(1561725745308+0000)/,,146,NoError,local
+37211,"Ethernet,Ethernet",SD,162.158.82.196,196.223.156.192,Max-net-for-internet-services,1a512351-8fbe-440f-8ea2-fcaf222c3111,/Date(1561725746475+0000)/,1.1.1.1,114,NoError,remote
+37211,"Ethernet,Ethernet",SD,162.158.82.196,196.223.156.192,Max-net-for-internet-services,1a512351-8fbe-440f-8ea2-fcaf222c3111,/Date(1561725747299+0000)/,8.8.8.8,120,NoError,remote
+37211,"Ethernet,Ethernet",SD,162.158.82.196,196.223.156.192,Max-net-for-internet-services,1a512351-8fbe-440f-8ea2-fcaf222c3111,/Date(1561725748605+0000)/,9.9.9.9,110,Refused,remote
+8346,Wireless80211,SN,82.163.143.10,154.125.167.47,SONATEL Societe Nationale Des Telecommunications D,868ac648-3271-42f1-a936-e77b170b833f,/Date(1561725749344+0000)/,,144,FormErr,local
+8346,Wireless80211,SN,82.163.143.10,154.125.167.47,SONATEL Societe Nationale Des Telecommunications D,868ac648-3271-42f1-a936-e77b170b833f,/Date(1561725750605+0000)/,8.8.8.8,82,NoError,remote
+8346,Wireless80211,SN,82.163.143.10,154.125.167.47,SONATEL Societe Nationale Des Telecommunications D,868ac648-3271-42f1-a936-e77b170b833f,/Date(1561725751798+0000)/,9.9.9.9,84,NoError,remote
+2609,Ethernet,TN,193.95.66.53,197.10.128.5,Tunisie Telecom,0cd8db1a-1f3e-4d1d-aeb0-f29d165dcb5d,/Date(1561725753373+0000)/,,18,NoError,local
+2609,Ethernet,TN,193.95.66.53,197.10.128.5,Tunisie Telecom,0cd8db1a-1f3e-4d1d-aeb0-f29d165dcb5d,/Date(1561725754003+0000)/,1.1.1.1,27,NoError,remote
+2609,Ethernet,TN,193.95.66.53,197.10.128.5,Tunisie Telecom,0cd8db1a-1f3e-4d1d-aeb0-f29d165dcb5d,/Date(1561725754565+0000)/,8.8.8.8,17,NoError,remote
+327750,Wireless80211,ZA,154.126.201.2,102.164.200.98,Jenny-internet,0d87fdae-b9c9-4b02-9800-6c5b8c0ae855,/Date(1561725758658+0000)/,1.1.1.1,196,NoError,remote
+37457,Wireless80211,ZA,196.43.46.229,105.228.18.247,Telkom Internet,b2ce9a9f-05a3-4f6c-be29-2fbb5ccd62fd,/Date(1561725758764+0000)/,1.1.1.1,182,NoError,remote
+11845,Wireless80211,ZA,41.193.129.0,41.193.129.130,JHB FTTB Framed Routes,39d17338-1733-4563-89a2-5c4eca819b36,/Date(1561725759000+0000)/,1.1.1.1,180,NoError,remote
+327984,Ethernet,ZA,172.69.46.73,102.176.222.111,Skyfi-Internet-Solutions,5667f00d-a444-4607-8f5e-fcdb9a8b1114,/Date(1561725759001+0000)/,1.1.1.1,113,NoError,remote
+37457,Ethernet,ZA,196.43.54.230,105.227.16.128,Telkom Internet,3e6056f0-b5f7-4a09-91c0-4f3e2bf52776,/Date(1561725759165+0000)/,1.1.1.1,219,NoError,remote
+36937,Ethernet,ZA,165.73.227.253,165.73.225.193,WAN 4 U cc,b7f37d52-c167-4469-becb-725be1034fa5,/Date(1561725759306+0000)/,1.1.1.1,32,NoError,remote
+37457,Ethernet,ZA,196.43.42.229,105.225.88.201,Telkom Internet,cea2de8f-4491-4e6a-84e9-578618b6a303,/Date(1561725760882+0000)/,1.1.1.1,201,NoError,remote
+37168,Wireless80211,ZA,41.157.54.0,41.157.54.199,CellCSP,16bdb749-798f-457a-acb9-7f569e5abbfe,/Date(1561725761081+0000)/,1.1.1.1,118,NoError,remote
